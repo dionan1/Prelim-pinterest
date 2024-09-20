@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images" href="images/Pinterest-Logo-2010.png.96x96.png">
+    <title>Pinterest</title>
+    <link rel="stylesheet" href="#">
+    <style>
+header {
+    display: flex;
+    align-items: center;
+    background-color: #e8e7e3;
+    padding: 10px;
+}
+header img {
+    margin-right: 900px;
+}
+table {
+    border-collapse: collapse;
+}
+table th {
+    padding: 10px;
+}
+nav {
+    display: flex;
+    background-color: #e8e7e3;
+}
+#bghead {
+    background-color: #feffdf;
+    width: 1600px;
+    height: 150px;
+}
+#req {
+    border: none;
+    color: rgb(219, 200, 200);
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 80px;
+    position: absolute;
+    margin-top: 5rem;
+
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #feffdf;
+    width: 1550px;
+    margin-left: 10rem;
+    padding: 10px;
+}
+#pint img {
+    height: 150px;
+    margin-left: 20px;
+}
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 5px;
+    background-color: #f3f3f3; 
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(138, 79, 79, 0.05);
+}
+.navbar a {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.navbar a:hover {
+    background-color: #e6e6e6;
+}
+.pin-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+}
+.pin {
+    flex: 0 1 300px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.pin img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pin-info {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+.pin-info strong {
+    color: #000;
+}
+
+        .three_w {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f4f4f4;
+            padding: 10px 10px;
+            max-width: 1550px;
+            margin: 0 auto;
+        }
+
+        .three_w a {
+            color: #333;
+        }
+
+        .three_w pre {
+            font-size: large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #repin {
+            font-size: 16px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body bgcolor="#e8e7e3">
+<header>
+    <img src="images/Pinterest-Logo-2010-removebg.png" height="150" style="transform: translate(100px,10px);">
+
+    <table>
+        <form id="form"> 
+        <tr height="">
+            <th>
+            <input type="search" id="query" name="q" placeholder="Search">
+            <button>Search</button>
+            </th>
+            <th><a href="https://ph.pinterest.com" style="color: #000000" target ="_blank"> Add </a></th>
+            <th><a href="https://ph.pinterest.com" style="color: #000000" target ="_blank">  Boards </a></th>
+            <th><a href="https://ph.pinterest.com" style="color: #000000" target ="_blank">  People </a></th>
+            <th><a href="https://ph.pinterest.com" style="color: #000000" target ="_blank">  About </a></th>
+            <th><a href="https://ph.pinterest.com" style="color: #000000" target ="_blank">  Login </a></th>
+        </tr>
+        </form>
+    </table>
+</header>
+
+<div class="content">
+    <div id="bghead">
+        <pre style="font-size:20px">Pinterest is a place to catalog the 
+things you love.</pre>
+    </div>
+    <div id="req">
+        <button><a href="https://ph.pinterest.com" style="color: #1a1919" target ="_blank">Request an Invite</a></button>
+    </div>
+    <div id="pint">
+        <img src="images/pint.PNG" height="120px">
+    </div>
+</div>
+<br>
+<div class="three_w">
+    <pre>Popular   <a href="https://ph.pinterest.com" target ="_blank">Everything</a>   <a href="https://ph.pinterest.com" target ="_blank">Gifts</a></pre>
+    <div id="repin">
+        <p>re·Pin (rē·pĭn): v. to post another person's pin to your own pinboard</p>
+    </div>
+</div>
+<br>
+<div>
+    <div class="navbar">
+        <a href="https://ph.pinterest.com" target ="_blank">All</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Buyable</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Food + Drink</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Travel</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Art + Architecture</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Design</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Photography</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Apparel</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Home + Furniture</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Prints</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Products</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Kids</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Film + Music + Books</a>
+        <a href="https://ph.pinterest.com" target ="_blank">DIY</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Science + Nature</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Tech</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Wedding + Events</a>
+        <a href="https://ph.pinterest.com" target ="_blank">People</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Fashion</a>
+        <a href="https://ph.pinterest.com" target ="_blank">Gift Guides</a>
+      </div>
+      
+</div>
+<br>
+
+<div class="pin-container">
+    <div class="pin">
+        <img src="images/9c2a031a294365fcb4448b076bb1725e.jpg" alt="Description of the image">
+        <div class="pin-info">
+            <p>Pinned by <strong>Steve</strong> onto <strong>Board Name</strong></p>
+            <p>reminiscing</p>
+        </div>
+    </div>
+    <div class="pin">
+        <img src="images/254feba2430f86883f062ae8fbe321e5.jpg" alt="Description of the image">
+        <div class="pin-info">
+            <p>Pinned by <strong>Harvey</strong> onto <strong>Board Name</strong></p>
+            <p>Perfect combination.</p>
+        </div>
+    </div>
+    <div class="pin">
+        <img src="images/055e6aae1da93244a01214b94841c2c7.jpg" alt="Description of the image">
+        <div class="pin-info">
+            <p>Pinned by <strong>Hailey</strong> onto <strong>Board Name</strong></p>
+            <p>Illustration of me and my cat!</p>
+        </div>
+    </div>
+    <div class="pin">
+        <img src="images/6f88b74b9e61e053eb1cd4d170e7d81e.jpg" alt="Description of the image">
+        <div class="pin-info">
+            <p>Pinned by <strong>Denver</strong> onto <strong>Board Name</strong></p>
+            <p>Photoism</p>
+        </div>
+    </div>
+</div>
+<div class="pin-container">
+    <div class="pin">
+        <img src="images/1779dc0687c5d3efec13d7acb653845d.jpg" alt="Description of the image">
+        <div class="pin-info">
+            <p>Pinned by <strong>Gail</strong> onto <strong>Board Name</strong></p>
+            <p>I hope I dont fall.</p>
+        </div>
+    </div>
+    <div class="pin">
+        <img src="images/wp6062541.jpg" alt="Description of the image">
+        <div class="pin-info">
+            <p>Pinned by <strong>Jerome</strong> onto <strong>Board Name</strong></p>
+            <p>Pots n Plants</p>
+        </div>
+    </div>
+    <div class="pin">
+        <img src="images/you-re-gonna-make-it-pinterest-aesthetic-ithgzmmsqfc23r69.jpg" alt="Description of the image">
+        <div class="pin-info">
+            <p>Pinned by <strong>Gregory</strong> onto <strong>Board Name</strong></p>
+            <p>We will make it!</p>
+        </div>
+    </div>
+    <div class="pin">
+        <img src="images/desktop-wallpaper-☾-pinterest-─-naemchi-☽-aesthetic-korean-boy.jpg" alt="Description of the image">
+        <div class="pin-info">
+            <p>Pinned by <strong>Max</strong> onto <strong>Board Name</strong></p>
+            <p>Photogenic me</p>
+        </div>
+    </div>
+    <div class="pin-container">
+        <div class="pin">
+            <img src="images/964ba49d6b21b9fa5996cadec18fc386.jpg" alt="Description of the image">
+            <div class="pin-info">
+                <p>Pinned by <strong>Denny</strong> onto <strong>Board Name</strong></p>
+                <p>To the ol' diner</p>
+            </div>
+        </div>
+        <div class="pin">
+            <img src="images/2c9866e519805577a048c88f7a1f1c0a.jpg" alt="Description of the image">
+            <div class="pin-info">
+                <p>Pinned by <strong>Ava Grace</strong> onto <strong>Board Name</strong></p>
+                <p>Serenity in every sunset.</p>
+            </div>
+        </div>
+        <div class="pin">
+            <img src="images/52df095bd1e9531441e96c4ff7def741.jpg" alt="Description of the image">
+            <div class="pin-info">
+                <p>Pinned by <strong>Liam Alexander</strong> onto <strong>Board Name</strong></p>
+                <p>Tryna be a pinterest boy</p>
+            </div>
+        </div>
+        <div class="pin">
+            <img src="images/5ecea384a021e530689e4fc74299374f.jpg" alt="Description of the image">
+            <div class="pin-info">
+                <p>Pinned by <strong>Kylie</strong> onto <strong>Board Name</strong></p>
+                <p>Moons and more moons!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
